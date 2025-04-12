@@ -1,9 +1,8 @@
 Conteúdo do main.py
-Copie este código para seu main.py:
+
 
 python
-Copiar
-Editar
+
 from pyspark.sql import SparkSession
 from pyspark.sql.functions import col, year, sum as spark_sum
 
@@ -50,8 +49,7 @@ __pycache__/
 output/
 📄 README.md (Exemplo)
 markdown
-Copiar
-Editar
+
 # Desafio Final - PySpark Vendas
 
 Este projeto resolve um desafio usando PySpark para processar dados fictícios de vendas.
@@ -70,14 +68,12 @@ pip install pyspark
 Execute o script:
 
 bash
-Copiar
-Editar
+
 python main.py
 Os resultados serão salvos em output/
 
 yaml
-Copiar
-Editar
+
 
 ---
 
@@ -95,8 +91,7 @@ Crie o repositório no GitHub (pelo site).
 Adicione a origem remota e envie:
 
 bash
-Copiar
-Editar
+
 git remote add origin https://github.com/seuusuario/desafio-spark-vendas.git
 git branch -M main
 git push -u origin main
