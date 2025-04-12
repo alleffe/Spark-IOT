@@ -37,3 +37,42 @@ df_maiores_compras.write.csv("output/maiores_compras.csv", header=True, mode="ov
 df_por_ano.write.csv("output/vendas_anuais.csv", header=True, mode="overwrite")
 
 print("✅ Resultados salvos em 'output/'")
+
+__pycache__/
+*.pyc
+*.log
+output/
+
+# Desafio Final - PySpark Vendas
+
+Este projeto resolve um desafio usando PySpark para processar dados fictícios de vendas.
+
+## O que o script faz:
+- Cria dados fictícios de vendas (id_cliente, valor_compra, data_compra)
+- Identifica os clientes com maior valor total de compras
+- Agrupa as vendas por ano e calcula o total de vendas anuais
+- Salva os resultados em CSV na pasta `output/`
+
+## Como rodar
+
+1. Instale o PySpark:
+```bash
+pip install pyspark
+
+
+
+
+---
+
+### 🚀 Subir no GitHub
+
+1. **Inicialize o repositório:**
+
+```bash
+cd desafio-spark-vendas
+git init
+git add .
+git commit -m "Desafio Final de PySpark - Vendas"
+
+
+
