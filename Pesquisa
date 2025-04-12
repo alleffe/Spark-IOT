@@ -1,0 +1,51 @@
+🔹 Edge Computing – Para que serve?
+Edge Computing (ou computação de borda) é uma arquitetura onde o processamento de dados acontece mais próximo de onde os dados são gerados (como sensores, câmeras, celulares, etc.), em vez de depender só da nuvem.
+
+Serve para:
+
+✅ Reduzir a latência: Respostas mais rápidas porque os dados não precisam viajar até um servidor distante.
+
+✅ Melhorar o desempenho: Ideal para aplicações que exigem tempo real (como carros autônomos, IoT, jogos online).
+
+✅ Economizar banda: Só os dados relevantes são enviados à nuvem.
+
+✅ Maior confiabilidade: Mesmo com conexão instável, o sistema pode continuar funcionando localmente.
+
+🔹 PWA (Progressive Web App) – Para que serve?
+Um PWA é um site que funciona como um aplicativo nativo no celular, mas roda no navegador. Ele combina o melhor da web com o melhor dos apps.
+
+Serve para:
+
+✅ Rodar offline: Com uso de Service Workers, ele armazena dados localmente.
+
+✅ Instalação simples: O usuário pode "instalar" o app direto do navegador, sem ir à loja de apps.
+
+✅ Boa performance: Carrega rápido e é otimizado para dispositivos móveis.
+
+✅ Experiência de app: Notificações push, tela cheia, ícone na home, etc.
+
+
+Sim, Edge Computing e PWA podem ter correlação em certos contextos, principalmente quando o objetivo é melhorar a performance, confiabilidade e experiência do usuário em aplicações web ou móveis.
+
+🧩 Como eles se conectam:
+Imagine um cenário onde um usuário está usando um PWA em um local com internet instável (ex: zona rural, metrô, etc.). Nesse contexto:
+
+O PWA permite que o app continue funcionando offline ou com conexão limitada, graças ao cache e Service Workers.
+
+O Edge Computing pode ser usado para processar e filtrar dados mais perto do usuário (em dispositivos locais ou servidores na borda), sem depender de um servidor central/nuvem distante.
+
+🔄 Exemplo prático:
+Um app de logística:
+
+Funciona como PWA para os entregadores, podendo ser instalado no celular e funcionando offline.
+
+Usa Edge Computing nos dispositivos ou nos pontos de coleta para processar localmente os dados de rota, escaneamento de pacotes, ou até imagens de segurança.
+
+Depois, só envia dados essenciais para a nuvem, economizando banda e melhorando a performance geral.
+
+✅ Resumo da correlação:
+PWA → Foco na experiência do usuário (instalável, offline, rápido).
+
+Edge Computing → Foco no processamento eficiente de dados perto da origem.
+
+Juntos → Entregam apps web mais rápidos, resilientes e otimizados para o mundo real.
